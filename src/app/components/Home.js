@@ -26,9 +26,9 @@ export class Home extends React.Component {
   }
   shouldComponentUpdate(nextProps,nextSate){
     console.log("Should Component update",nextProps,nextSate);
-  /*  if(nextSate.status === 1){
+   if(nextSate.status === 1){
       return false;
-    }*/
+    }
     return true;
   }
   componentWillUpdate(nextProps,nextSate){
